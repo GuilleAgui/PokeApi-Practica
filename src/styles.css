@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(245, 239, 239);
+    font-family: sans-serif;
+    padding: 0;
+    display: block;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+}
+
+.card {
+    background-color: rgb(247, 240, 250);
+    box-shadow: 0px 0px 5px 2px rgb(202, 194, 194);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    height: 230px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+img {
+    height: 150px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    text-transform: uppercase;
+    width: auto;
+    border: solid 1px rgb(179, 165, 165);
+    box-shadow: 2px 0px 2px 1px rgb(160, 154, 154);
+    height: 30px;
+    cursor: pointer;
+    margin: 5px;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    filter: brightness(0.8);
+}
+
+.tipos span {
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+}
